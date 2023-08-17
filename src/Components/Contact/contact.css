@@ -1,0 +1,77 @@
+.contact-container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.contact-container .title{
+    margin-top: 30px;
+}
+.contact-container .title h1{
+    font-weight: 700;
+    color: green;
+    margin-bottom: 50px;
+}
+.Desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1;
+
+}
+
+.Desc h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.Desc h3 span{
+    color: green;
+}
+.Desc p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #808080;
+}
+.contact-container .icons{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+.contact-container .icons i{
+    font-size: 28px;
+    cursor: pointer;
+}
+.contact-container form{
+    display: flex ;
+    flex-direction: column;
+}
+.contact-container form .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-container form .inputs input{
+    width: 400px;
+    padding: 5px 7px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+.contact-container form .inputs textarea{
+    resize: none;
+    width: 400px;
+    padding: 5px 7px ;
+    border: 1px solid green;
+    outline: none;
+    height: 90px;   
+    border-radius: 10px;
+
+}
+.contact-container form .inputs  button{
+    width: 400px;
+    border-radius: 10px;
+}

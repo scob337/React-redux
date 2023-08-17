@@ -1,0 +1,23 @@
+.about-container{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 30px;
+    color: #666;
+}
+.about-container .title{
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+.about-container .Desce{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about-container .Desce p{
+    font-weight: 600;
+    margin-top: 30px;
+}
